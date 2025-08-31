@@ -1,0 +1,47 @@
+/* Sidebar styles */
+.sidebar {
+  height: 100vh;
+  overflow-y: auto;
+  width: 250px;
+  position: fixed;
+  overflow: scroll;
+  top: 0;
+  left: -250px; /* Hidden by default */
+  /* background-color: #333; */
+  color: white;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.sidebar.active {
+  left: 0;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+}
+
+/* Button to open sidebar */
+.open-btn {
+  font-size: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  /* background-color: #333; */
+  color: white;
+  border: none;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+/* Close button inside sidebar */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  background: none;
+  color: white;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}

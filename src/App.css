@@ -1,0 +1,196 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  line-height: normal;
+}
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+.cntr {
+  margin-top: 100px;
+}
+
+#root {
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  /* text-align: center; */
+}
+.btn-sidebar {
+  width: 100%;
+}
+.fileUpload-image {
+  height: 100px;
+  width: 150px;
+}
+.myborder {
+  border: 3px solid darkblue;
+}
+/* EComm*/
+.bigger-text {
+  font-size: 1.5em;
+}
+.biggest-text {
+  font-size: 2em;
+}
+
+.container-cart {
+  font-size: 30px;
+}
+.container-product {
+  position: relative;
+}
+.product-discount {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  background-color: orange;
+  /* border: 3px solid red; */
+}
+.container-navbar-cart {
+  position: relative;
+}
+.total-cart-items {
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  background-color: orange;
+  padding: 3px;
+  border-radius: 30%;
+}
+.total-cart-amount {
+  font-size: 1.5rem;
+  color: white;
+}
+.btn-panel > button {
+  font-size: 20px;
+}
+.content-page {
+  margin-top: 150px;
+}
+.text-bigger {
+  font-size: 1.1rem;
+}
+.text-small {
+  font-size: 0.9em;
+}
+.text-bold {
+  font-weight: bold;
+}
+.text-italic {
+  font-style: italic;
+}
+.enquiry-remarks,
+.container-enquiry-files {
+  margin-top: 100px;
+}
+.container-sidebar {
+  /* height: 100vh; */
+}
+.modal-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  max-width: 30rem;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  /* padding: 20px; */
+  border-radius: 10px;
+}
+.modal-wrapper {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(189, 189, 189, 0.9);
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+  .mycontainer {
+    width: 100%;
+  }
+  body {
+    font-size: 1em;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) {
+  .mycontainer {
+    width: 90%;
+  }
+  body {
+    font-size: 0.75em;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .mycontainer {
+    width: 80%;
+  }
+  body {
+    font-size: 0.8em;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .mycontainer {
+    width: 60%;
+  }
+  body {
+    font-size: 0.9em;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .mycontainer {
+    width: 50%;
+  }
+}

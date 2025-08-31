@@ -1,0 +1,187 @@
+
+/* Container Styling */
+.add-form {
+  /* max-width: 800px; */
+  margin: auto 10px;
+  padding: 20px;
+  background-color: #f8f9fa; /* Light Gray Background */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+}
+
+.add-form-ele {
+  padding: 20px;
+  background-color: #ffffff; /* White Background for the form */
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.add-form-form {
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.heading-add-pro {
+  font-size: 24px;
+  color: #0069d9; /* Dark Blue for Header */
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Form Element Styling */
+.add-form-input {
+  /* margin-bottom: 16px; */
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.add-form-input label {
+  font-size: 14px;
+  color: #343a40; /* Dark Gray for Text */
+  margin-bottom: 8px;
+}
+
+/* Highlighting Elements on Focus */
+.add-form-else-ele:focus,
+.add-form-textarea:focus,
+.add-form-dropdown:focus {
+  border-color: #0056b3; /* Darker Blue when focused */
+  background-color: #e6f1ff; /* Light Blue Background on Focus */
+  box-shadow: 0 0 8px rgba(0, 86, 179, 0.5); /* Soft blue glow */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  /* width: 100%; */
+}
+input[type='text'], textarea
+{
+    width: 100%;
+}
+
+.add-form-else-ele,
+.add-form-textarea,
+.add-form-dropdown {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #007bff; /* Blue border */
+  border-radius: 4px;
+  outline: none;
+  background-color: #ffffff; /* White Input Background */
+  color: #343a40; /* Dark Gray Text */
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Styling for Hover */
+.add-form-else-ele:hover,
+.add-form-textarea:hover,
+.add-form-dropdown:hover {
+  background-color: #f1f8ff; /* Light Grayish Blue Background on Hover */
+  border-color: #0069d9; /* Slightly Darker Blue on Hover */
+}
+
+.add-form-textarea {
+  resize: vertical;
+}
+
+/* Checkbox and Radio Buttons */
+.add-form-checkbox-group,
+.add-form-radio,
+.add-form-checkbox {
+  margin-bottom: 10px;
+}
+
+.add-form-checkbox-group input,
+.add-form-radio input,
+.add-form-checkbox input {
+  margin-right: 8px;
+}
+
+.add-form-checkbox-group label,
+.add-form-radio label {
+  font-size: 14px;
+  color: #343a40; /* Dark Gray Text */
+}
+
+/* Button Styling */
+.add-form-but {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* gap: 12px; */
+  /* margin-top: 20px; */
+}
+
+.add-form-but button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #007bff; /* Blue Button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+}
+
+.add-form-but button:hover {
+  background-color: #0056b3; /* Dark Blue on Hover */
+  box-shadow: 0 0 15px rgba(0, 86, 179, 0.5);
+}
+
+.add-form-but button[type="button"] {
+  background-color: #b0b0b0; /* Gray for Disabled Button */
+  color: #333333;
+}
+
+.add-form-but button[type="button"]:hover {
+  background-color: #8f8f8f; /* Darker Gray */
+}
+
+.add-form-but button:disabled {
+  background-color: #b0b0b0; /* Gray */
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+  .add-form {
+    padding: 10px;
+    width: 99%;
+  }
+
+  .add-form-ele {
+    padding: 10px;
+  }
+
+  .add-form-input {
+    margin-bottom: 12px;
+  }
+
+  .add-form-input label {
+    font-size: 13px;
+  }
+
+  .add-form-else-ele,
+  .add-form-textarea,
+  .add-form-dropdown {
+    font-size: 14px;
+  }
+
+  .heading-add-pro {
+    font-size: 20px;
+  }
+
+  .add-form-but {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .add-form-but button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .add-form-but button[type="button"] {
+    margin-bottom: 10px;
+  }
+}
